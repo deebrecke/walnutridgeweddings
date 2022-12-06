@@ -1,0 +1,128 @@
+.navigation {
+    float: left;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation:hover {
+    background-color: white;
+    color: black;
+}
+#navBar {
+    background-image: url("images/mirror_banner.jpg");
+    min-height: 545px;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.70);
+}
+#links {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navContainer {
+    margin: 20px;
+    width: auto;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+#wrbg {
+    width: 15%;
+}
+.spacertop {
+    padding-top: 30px;
+}
+/*Stewart's navbar code ends here*/
+
+#vmpagetop p{
+    font-family: proxima-nova, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+#vmpagetop{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h1{
+    font-family: "Times New Roman", serif;
+    color: #d5b6ae;
+}
+h3{
+    color: #bdbdbd;
+    box-shadow: 0.5em 0 0 rgb(255 255 255 / 0%), -0.5em 0 0 rgb(255 255 255 / 0%);
+}
+.signtxt{
+    font-family: adobe-garamond-pro, serif;
+    font-size: 24px;
+}
+
+.mirrorimg{
+    border-radius: 50px;
+    flex: 1;
+}
+#custmirrhead{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgba(189, 189, 189, 0.5);
+    text-shadow: 2px 2px black;
+}
+#cust-small{
+    background-color: #d5b6ae;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+
+#med1{
+    position: relative;
+    height: 488px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+#med1 img{
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: fill;
+}
+
+
+#cust-lg{
+    background-color: #d5b6ae;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+.custmirrtxt p{
+    font-family: "Baskerville Old Face",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+}
+.mirrorpackages{
+    background-color: rgba(213, 182, 174, 0.5);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.footer {
+    background-color: #d5b6ae;
+    position: absolute;
+    color: white;
+}

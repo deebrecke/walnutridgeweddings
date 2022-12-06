@@ -1,0 +1,15 @@
+h3 {
+    font-size: 60px;
+    font-family: 'Passions Conflict', cursive;
+}
+
+.receipt {
+    border: 5px solid #dabeb8;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}

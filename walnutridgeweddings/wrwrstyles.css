@@ -1,0 +1,122 @@
+/*
+Stewart Lovell
+wrwrstyles.css
+*/
+
+.col-12 {
+    margin-bottom: 30px;
+}
+
+.spacertop {
+    padding-top: 30px;
+}
+
+.spacer {
+    border-bottom-style: inset;
+    padding-bottom: 50px;
+}
+
+.quote {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.quoted {
+    text-align: right;
+    font-size: 18px;
+}
+
+.goToOption {
+    margin-top: 30px;
+    background-color: #dabeb8;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    border: 2px solid #dabdb8;
+}
+
+.goToOption:hover {
+    background-color: white;
+    color: #dabdb8;
+}
+
+.navigation {
+    float: left;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation:hover {
+    background-color: white;
+    color: black;
+}
+
+.optionimg {
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+#navBar {
+    background-image: url("images/navimage.jpg");
+    min-height: 545px;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.70);
+}
+
+#wrbg {
+    width: 15%;
+}
+
+#links {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navContainer {
+    margin: 20px;
+    width: auto;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Times New Roman", serif;
+    color: #d5b6ae
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+}
+
+.footer {
+    background-color: #d5b6ae;
+    position: absolute;
+    color: white;
+}
